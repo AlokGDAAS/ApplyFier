@@ -17,7 +17,7 @@ const Home_frame_2_card = ({img , head_1 , head_2 ,head_3, para}) => {
 
       <div>
         <p className='py-4 font_32 m_font_32_ln_0 leading-tight'>{head_1}<br className='' /> {head_2}<br className='' /> {head_3}</p>
-        <p className='font_16 m_font_16'>{para}</p>
+        <p className='font_16 m_font_16'>{para} </p>
       </div>
     </div>
   )
