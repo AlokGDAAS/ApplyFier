@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: poppins;
+
+}
+
+.back{
+  background-color: #EDEEF8;            
+}
+
+
+
+@media (min-width:768px){
+
+  .back {
+  
+  background: radial-gradient(circle 400px at 45% 2.5%, #ffffff ,transparent 70%), /* uplift*/
+              radial-gradient(circle 1000px at 70% 7%, #bfbef8 ,transparent 70%), /* behing girl*/
+              radial-gradient(circle 900px at 50% 14%, #bfbef8 ,transparent 70%), 
+              radial-gradient(circle 900px at 50% 26%, #bfbef8 ,transparent 70%), 
+              radial-gradient(circle 300px at 20% 35%, #ffffff ,transparent 70%), /* uplift*/
+              radial-gradient(circle 900px at 20% 42%, #bfbef8 ,transparent 70%),
+              radial-gradient(circle 900px at 70% 55%, #bfbef8 ,transparent 70%),
+              radial-gradient(circle 300px at 40% 60%, #ffffff ,transparent 70%), /* uplift*/
+              radial-gradient(circle 900px at 80% 78%, #bfbef8 ,transparent 70%),
+              radial-gradient(circle 900px at 30% 90%, #bfbef8 ,transparent 70%),
+              radial-gradient(circle 900px at 5% 85%, #bfbef8 ,transparent 70%),
+              radial-gradient(circle 900px at 90% 85%, #bfbef8 ,transparent 70%);
+
+
+  background-color: #EDEEF8;            
+}
+
+}
+
+
+.gradient-text {
+  background: linear-gradient(90deg, #9A72F9, #9A72F9, #F67315); /* your gradient */
+  -webkit-background-clip: text; /* clip background to text */
+  -webkit-text-fill-color: transparent; /* make text see-through */
+  background-clip: text; /* for browsers that support it */
+  color: transparent; /* fallback */
+  
+}
+
+
+
+
+.radiel{
+  background-image: radial-gradient( #f6f8f9, transparent);
+}
+
+/* ---------- mobile font ------------------- */
+
+@media (max-width:767px){
+
+
+  .m_font_12{
+    font-size: clamp(10px,3.2vw,18px);
+    line-height: 100%;
+    font-weight: 400;
+  }
+
+
+  .m_font_14{
+    font-size: clamp(10px,3.73vw,18px);
+    line-height: 100%;
+    font-weight: 400;
+  }
+
+  .m_font_16{
+    font-size: clamp(12px,4.26vw,24px);
+    line-height: 150%;
+    font-weight: 400;
+  }
+
+  .m_font_16_md{
+    font-size: clamp(12px,4.26vw,24px);
+    line-height: 150%;
+    font-weight: 500;
+  }
+
+    .m_font_20{
+    font-size: clamp(12px,5.33vw,38px);
+    font-weight: 500; 
+    line-height: 150%;       
+  }
+
+  .m_font_32{
+    font-size: clamp(24px,8.53vw,48px);
+    line-height: 100%;
+    font-weight: 500;
+  }
+
+  .m_font_32_ln_150{
+    font-size: clamp(24px,8.53vw,48px);
+    line-height: 150%;
+    font-weight: 500;
+  }
+
+  .m_font_32_ln_0{
+    font-size: clamp(24px,8.53vw,48px);
+
+    font-weight: 500;
+  }
+
+  .m_font_36{
+    font-size: clamp(24px,9.6vw,48px);
+    line-height: 150%;
+    font-weight: 600;
+  }
+
+  
+  .m_font_46{
+    font-size: clamp(28px,12.26vw,50px);
+    font-weight: 600; 
+    line-height: 150%;       
+  }
+
+  
+
+
+  
+
+}
+
+
+
+
+/* ---------- font ------------------- */
+
+
+@media (min-width:768px){
+
+.home-font{
+  font-size: clamp(36px , 3.88vw , 72px);
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.home-frame_2-font_1{
+  font-size: clamp(36px , 5vw , 72px);
+  font-weight: 600;
+  line-height: 130%;
+
+}  
+
+.font_32{
+  font-size: clamp(18px , 2.22vw , 48px);
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.font_20{
+  font-size: clamp(14px , 1.38vw , 28px);
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.font_20_ln{
+  font-size: clamp(14px , 1.38vw , 28px);
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.font_20_normal{
+  font-size: clamp(14px , 1.38vw , 28px);
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.font_20_normal_ln_150{
+  font-size: clamp(14px , 1.38vw , 28px);
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.font_16{
+  font-size: clamp(12px , 1.11vw , 24px);
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.font_16_md{
+  font-size: clamp(12px , 1.11vw , 24px);
+  font-weight: 500;
+  line-height: 150%;
+ 
+
+}
+
+.font_12{
+  font-size: clamp(5px , 0.84vw , 24px);
+  font-weight: 600;
+  line-height: 150%;
+  color: gray;
+ 
+
+}
+
+}
